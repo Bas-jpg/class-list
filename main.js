@@ -2,7 +2,7 @@ const box = document.querySelector(".box");
 
 const toggle = document.querySelector(".toggle");
 toggle.addEventListener('click', function(){
-        box.classList.toggle("error");
+        box.classList.toggle("blinker");
 });
 
 
